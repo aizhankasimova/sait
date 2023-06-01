@@ -1,0 +1,54 @@
+.main_usl{
+    padding: 50px;
+}
+.ust{
+    display: flex;
+    flex-wrap: wrap;
+}
+.master_usl{
+    margin: auto;
+}
+.usl_title{
+    max-width: 1200px;
+    margin: auto;
+}
+.foto{
+    margin: auto;
+}
+.master_usl{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ust_left{
+    max-width: 780px;
+    margin: 0 auto 50px auto;
+}
+
+/* .main_mas{
+    padding: 50px 100px;
+} */
+.mas_text{
+    max-width: 580px;
+    margin: 0 auto 50px auto;
+}
+.mas_har{
+    display: flex;
+    justify-content: center;
+}
+.mas_stage>p,.mas_style>p{
+    text-align: center;
+}
+.mas_style{
+    margin-left: 50px;
+}
+
+picture>img{
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.usluga{
+    margin-bottom: 50px;
+}

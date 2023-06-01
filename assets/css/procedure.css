@@ -1,0 +1,218 @@
+body{
+    max-width: 1920px;
+    margin: auto;
+    padding: 0;
+    background-color: #ffffff;
+}
+p,h1,h2,a{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: solid 1px #D6BFBF;
+    box-shadow: -1px 1px 10px 2px #d6bfbf;
+}
+.navigation{
+    margin: auto;
+
+}
+.logo{
+   display: flex;
+   margin-left: 130px;
+}
+.img{
+    margin: 0 0 0 5px;
+}
+.p-logo{
+    color: #514F4B;
+    font-size: 32px;
+    font-weight: 500;
+}
+.dropbutton {
+    display: none;
+}
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+li{
+    list-style-type: none;
+
+}
+.li_navigation {
+    margin-right: 52px;
+}
+a{
+    text-decoration: none;
+}
+.a_navigation{
+    font-weight: 400;
+    white-space: nowrap;
+    color: rgb(0, 0, 0);
+}
+.a_navigation:hover{
+    color: #D6BFBF;
+}
+
+.p_articles {
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-weight: 700;
+    line-height: 140%;
+    font-size: 30px;
+    margin-bottom: 19px;
+    margin-left: 20px;
+    white-space: nowrap;
+    text-align: left;
+}
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+.footer {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    justify-content: space-between;
+    border-top: solid 1px #D6BFBF;
+    padding-top: 10px;
+}
+.p_footer{
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+    white-space: nowrap;
+    text-align: center;
+}
+.form{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.input{
+  width: 800px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: solid 1px #0e0d0d;
+  background-color: #ffffff;
+}
+.date{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+    color: #000000;
+}
+.text{
+    width: 800px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: solid 1px #0e0d0d;
+  background-color: #ffffff;
+}
+.area{
+  width: 800px;
+  height: 70px;
+  margin-bottom: 30px;
+  border: solid 1px#000000;
+  background-color: #ffffff;
+}
+.user_profile_color_1{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+    color: #000000; 
+}
+::placeholder{
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+}
+.a_question{
+  white-space: nowrap;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 9px 14.88px 9px 14.88px;
+  border-radius: 3px;
+  background-color: #000000;
+  font-weight: 400;
+}
+.a_question:hover{
+  background-color:#524f4f ;
+}
+.question{
+    margin-bottom: 50px;
+}
+#toTop {
+  width:100px;
+  border:1px solid #ccc;
+  border-radius: 2px;
+  background:#D6BFBF;
+  text-align:center;
+  padding:5px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+  color:#D6BFBF;
+  font-family:verdana;
+  font-size:14px;
+  }
